@@ -7,16 +7,15 @@ implementada en esta es invocada desde un programa en C.
 
 Se desarrollaron tres programas:
 
-* [basico.c](2019_05_24/basico.c)
-* [libfun.c](2019_05_24/libfun.c)
-* [libfun.h](2019_05_24/libfun.h)
+* [basico.c](basico.c)
+* [libfun.c](libfun.c)
+* [libfun.h](libfun.h)
 
 Para compilar el programa se llevan a cabo los siguientes pasos:
 
 * Generar la librería
 
 `gcc -c libfun.c -o libfun.o
- 
 ar rcs libfun.a libfun.o`
 
 + En el paso anterior se generó el archivo `libfun.a` . Ahora 
