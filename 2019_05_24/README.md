@@ -15,7 +15,8 @@ Para compilar el programa se llevan a cabo los siguientes pasos:
 
 * Generar la librería
 
-`gcc -c libfun.c -o libfun.o \n
+`gcc -c libfun.c -o libfun.o
+ 
 ar rcs libfun.a libfun.o`
 
 + En el paso anterior se generó el archivo `libfun.a` . Ahora 
