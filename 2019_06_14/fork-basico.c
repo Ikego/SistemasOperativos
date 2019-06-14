@@ -19,4 +19,6 @@ int main(int argc, char** argv) {
   	} else {
     	printf("Soy el padre,y mi identificador es %d y el de mi hijo es %d\n",getpid(),pid);
   	}
+	return 0;
+
 }
