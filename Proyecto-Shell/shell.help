@@ -14,7 +14,10 @@ Command_name	usage		result
    environ	environ		List all the enviroment strings	
 
 Command_name	usage		result 
-   pause	pause		Pause operation of the shell until 'Enter' is pressed	
+   pause	pause		Pause operation of the shell until 'Enter' is pressed
+
+Command_name	usage		result 
+    echo	echo<String>    String
 
 Command_name	usage		result 
    quit		quit		Quit the shell
