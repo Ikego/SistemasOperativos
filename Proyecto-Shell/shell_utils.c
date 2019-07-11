@@ -123,6 +123,8 @@ int otherCommands(char* stream_command,int size,int out,char filename[])
             myargs[1] = NULL;
             execv(myargs[0],myargs);
         }
+
+        exit(0);
     }
     else
     {
