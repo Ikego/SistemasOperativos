@@ -124,7 +124,7 @@ int otherCommands(char* stream_command,int size,int out,char filename[])
             execv(myargs[0],myargs);
         }
 
-        exit(0);
+        exit(1);
     }
     else
     {
@@ -132,7 +132,7 @@ int otherCommands(char* stream_command,int size,int out,char filename[])
         __pid_t rc_wait = wait(&status_code);
         if(status_code != 0)
         {
-            fprintf(stderr,"Failed to create a new process");
+            fprintf(stderr,"Failed to create a new process\n");
             return -1;
         } 
     }
